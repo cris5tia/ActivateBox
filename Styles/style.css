@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700&family=Cardo:ital,wght@1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    display: grid;
+    grid-template-areas:
+        "header"
+        "uno"
+        "dos"
+        "tres"
+        "cuatro"
+        "cinco"
+        "seis"
+        "footer";
+    width: 100%;
+}
+
+/*  HEADER  */
+header {
+    grid-area: header;
+    background: linear-gradient(to top right, rgba(49, 52, 85, 0.9)), url(../Assents/images/Layer\ 34.png) center/cover no-repeat;
+    color: white;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.one {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 4% 14%;
+    align-items: center;
+}
+
+.one h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+}
+
+.one h2 span {
+    color: #E84546;
+}
+
+nav {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #A9ABBE;
+}
+
+.uuhhybf {
+    border: 1px solid white;
+    width: 72%;
+    margin: 0 auto;
+}
+
+header .hero {
+    display: grid;
+    text-align: center;
+    padding: 9% 24%;
+}
+
+.kilik {
+    text-align: center;
+    padding: 9% 4%;
+}
+
+header p {
+    font-size: 13px;
+}
+
+.kilik h1 {
+    font-size: 35px;
+    margin-bottom: 20px
+}
+
+header button {
+    margin-top: 20px;
+    background-color: #E84546;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+/*  UNO  */
+.uno {
+    grid-area: uno;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 9% 12%;
+    text-align: center;
+    gap: 40px;
+}
+
+.jhgjhg {
+    width: 18%;
+}
+
+.uno h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.uno p {
+    font-size: 14px;
+    color: #8B8D8F;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* DOS  */
+.dos {
+    grid-area: dos;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.dos img {
+    width: 100%;
+    display: block;
+}
+
+/* TTRES */
+.tres {
+    grid-area: tres;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 6% 15%;
+}
+
+.tres img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tres h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+
+.tres span {
+    font-size: 12px;
+    color: #E84546;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.tres p {
+    font-size: 12px;
+    color: #8B8D8F;
+    margin-bottom: 20px;
+}
+
+.jygfhj {
+    display: flex;
+    gap: 10px;
+}
+
+.jygfhj div {
+    width: 16%;
+    height: 5vh;
+    border: 1px solid #C3C6CA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jygfhj img {
+    width: 16px;
+    height: 16px;
+    margin-top: 18px;
+}
+
+/* CUEATRO  */
+.cuatro {
+    display: grid;
+    grid-area: cuatro;
+    grid-template-columns: 1fr 1fr;
+}
+
+.jhbdplo img {
+    width: 100%;
+    height: 100%;
+}
+
+.juybgch {
+    background: #6b4d5c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 9% 8%;
+}
+
+.khjih {
+    font-family: "Cardo", serif;
+    font-size: 24px;
+    margin-bottom: 30px;
+    width: 70%;
+}
+
+.uhgyhy {
+    font-size: 9px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.blanco {
+    color: white;
+}
+
+.gris {
+    color: #8B8D8F;
+    font-size: 50px;
+    margin-left: 30%;
+}
+
+/* CINCO */
+.cinco {
+    grid-area: cinco;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.cinco h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.cinco p {
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.cinco button {
+    background-color: #E84546;
+    border: none;
+    padding: 10px 45px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+/* SEIS */
+.seis {
+    grid-area: seis;
+    background-color: #3A3E63;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding: 90px 120px;
+    color: #8B8D8F;
+}
+
+.parteone,
+.partetwo,
+.partetheree {
+    text-align: center;
+}
+
+.parteone h2,
+.partetwo h2,
+.partetheree h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.parteone p,
+.partetheree p {
+    font-size: 10px;
+}
+
+.partetwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partetwo h2 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.hjhbn {
+    display: flex;
+    gap: 10px;
+    width: 55%;
+    justify-content: center;
+}
+
+.hjhbn div {
+    width: 20%;
+    height: 6vh;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hjhbn img {
+    width: 35%;
+    height: 3vh;
+}
+
+/* FOOTER */
+footer {
+    grid-area: footer;
+    background-color: #313455;
+    text-align: center;
+    padding: 25px 0;
+}
+
+footer p {
+    font-size: 12px;
+    color: #8B8D8F;
+}
+
+footer span {
+    color: #8B8D8F;
+}
+
+footer i {
+    color: #E84546;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1279px) {
+
+    /* DOS */
+    .jhgjhg {
+        width: 20%;
+    }
+
+    .uno p {
+        font-size: 12px;
+        width: auto;
+    }
+
+    /* TRES */
+    .tres h2 {
+        font-size: 17px;
+    }
+
+    .tres span {
+        font-size: 10px;
+    }
+
+    .tres p {
+        font-size: 11px;
+    }
+
+    .jygfhj div {
+        height: 6vh;
+        width: 15%;
+    }
+}
+
+@media (max-width: 920px) {
+
+    /* HEADER*/
+    .kilik {
+        padding: 6% 4%;
+    }
+
+    .one h2 {
+        font-size: 19px;
+    }
+
+    nav {
+        justify-content: end;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 10px;
+    }
+
+    .kilik h1 {
+        font-size: 31px;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+
+    /* UNO */
+    .jhgjhg {
+        width: 25%;
+    }
+
+    /* TRES */
+    .tres span {
+        font-size: 9px;
+    }
+
+    .jygfhj img {
+        width: 12px;
+        height: 13px;
+    }
+
+    .tres p {
+        font-size: 9px;
+        margin-bottom: 9px;
+    }
+
+    /* CUATRO */
+    .khjih {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    .uhgyhy {
+        margin-bottom: 1px;
+    }
+
+    /* CINCO */
+    .cinco h2 {
+        font-size: 20px;
+    }
+
+    .cinco button {
+        padding: 10px 37px;
+    }
+
+    /* SEIS */
+    .parteone p,
+    .partetheree p {
+        font-size: 9px;
+    }
+
+    .hjhbn img {
+        width: 58%;
+    }
+
+    .parteone h2,
+    .partetwo h2,
+    .partetheree h2 {
+        font-size: 11px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* HEADER */
+    .one {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .kilik h1 {
+        font-size: 23px;
+    }
+
+    header p {
+        font-size: 9px;
+    }
+
+    header button {
+        padding: 7px 20px;
+    }
+
+    /* UNO */
+    .uno {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 9% 8%;
+        gap: 30px;
+    }
+
+    .clena {
+        width: 34%;
+    }
+
+    /* DOS */
+    .dos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* TRES */
+    .tres {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tres p {
+        font-size: 11px;
+    }
+
+    /* CUATRO */
+    .khjih {
+        font-size: 14px;
+        width: 93%;
+    }
+
+    .uhgyhy {
+        font-size: 6px;
+    }
+
+    .gris {
+        font-size: 34px;
+        margin-left: 27%;
+    }
+
+    /* CINCO */
+    .cinco h2 {
+        font-size: 15px;
+    }
+
+    .cinco p {
+        margin-bottom: 18px;
+    }
+
+    .cinco button {
+        padding: 8px 26px;
+    }
+
+    /* SEIS */
+    .seis {
+        grid-template-columns: 1fr;
+        padding: 48px 44px;
+        gap: 18px;
+    }
+
+    .parteone p,
+    .partetheree p {
+        font-size: 7px;
+    }
+
+    .parteone p,
+    .partetheree p {
+        font-size: 13px;
+        width: 97%;
+    }
+
+    .hjhbn div {
+        width: 20%;
+        height: 9vh;
+    }
+
+    .hjhbn img {
+        width: 58%;
+        height: 6vh;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 17px 0;
+    }
+
+    footer p {
+        font-size: 11px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .one {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 10px;
+        padding: 5% 5%;
+    }
+
+    nav a {
+        font-size: 10px;
+    }
+
+    nav {
+        justify-content: start;
+        gap: 9px;
+    }
+
+    .kilik {
+        padding: 6% 7%;
+    }
+
+    .kilik h1 {
+        font-size: 19px;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+
+    header button {
+        padding: 7px 13px;
+        margin-top: 16px;
+    }
+
+    /* UNO */
+    .uno h3 {
+        font-size: 12px;
+        margin: 10px 0px;
+    }
+
+    .uno {
+        gap: 12px;
+        padding: 7% 4%;
+    }
+
+    .uno p {
+        width: auto;
+    }
+
+    /* DOS */
+    .dos {
+        gap: 5px;
+        padding: 0 5%;
+    }
+
+    /* TRES */
+    .tres {
+        padding: 6% 9%;
+    }
+
+    .tres p {
+        font-size: 10px;
+    }
+
+    /* CUATRO */
+    .cuatro {
+        grid-template-columns: 1fr;
+    }
+
+    .juybgch {
+        text-align: center;
+        justify-content: center;
+        padding: 7% 15%;
+    }
+
+    .khjih {
+        font-size: 14px;
+        width: auto;
+    }
+
+    .uhgyhy {
+        font-size: 9px;
+    }
+
+    .gris {
+        font-size: 34px;
+        margin-left: -1%;
+    }
+
+    /* CINCO */
+    .cinco {
+        padding: 5% 8%;
+    }
+
+    .cinco h2 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .cinco p {
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+
+    .cinco button {
+        padding: 8px 17px;
+        font-size: 10px;
+    }
+
+    /* SEIS */
+    .hjhbn img {
+        width: 64%;
+        height: 4vh;
+    }
+
+    .parteone h2,
+    .partetwo h2,
+    .partetheree h2 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    /* FOOTER */
+    footer p {
+        font-size: 12px;
+    }
+}
